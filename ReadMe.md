@@ -1,4 +1,4 @@
-# Parcel IE 11 Demo
+# Parcel IE 11 Issue Demo
 
 A quick and dirty demo of behavior of basic app configuration with babel for parcel bundling, and its current issue with IE(11).
 

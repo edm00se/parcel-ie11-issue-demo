@@ -1,0 +1,17 @@
+language: node_js
+cache:
+  directories:
+    - "node_modules"
+node_js:
+  - lts/*
+script:
+  - npm run build
+  - touch dist/.nojekyll
+deploy:
+  provider: pages
+  local-dir: dist
+  skip-cleanup: true
+  github-token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
