@@ -13,4 +13,4 @@ module.exports=function(t){return fetch(t).then(function(t){return t.text()})};
 },{}],0:[function(require,module,exports) {
 var b=require("21/1");b.register("html",require("A3BY"));b.load([["more.182a31cd.html","BuX5"]]).then(function(){require("epB2");});
 },{}]},{},[0], null)
-//# sourceMappingURL=/main.4d82686d.map
+//# sourceMappingURL=main.4d82686d.map
