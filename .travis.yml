@@ -4,6 +4,8 @@ cache:
     - "node_modules"
 node_js:
   - lts/*
+notifications:
+  email: false
 script:
   - npm run build
   - touch dist/.nojekyll
