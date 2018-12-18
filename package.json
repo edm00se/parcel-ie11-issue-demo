@@ -2,6 +2,8 @@
   "name": "parcel-ie11-demo",
   "version": "1.0.0",
   "description": "a parcel demo app of the issue w/ ie11",
+  "author": "Eric McCormick (https://edm00se.codes/)",
+  "license": "MIT",
   "main": "src/index.html",
   "scripts": {
     "clean": "rimraf dist",
@@ -10,8 +12,6 @@
     "build:raw": "parcel build --public-url . src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Eric McCormick (https://edm00se.codes/)",
-  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
